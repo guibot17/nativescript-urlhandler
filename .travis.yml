@@ -129,8 +129,7 @@ android:
    - extra-google-m2repository
    - extra-android-m2repository
    # Specify at least one system image
-   - sys-img-armeabi-v7a-android-24
-   - sys-img-armeabi-v7a-google_apis-21
+   - sys-img-armeabi-v7a-android-21
    - sys-img-armeabi-v7a-google_apis-25
    - sys-img-armeabi-v7a-android-$ANDROID_API_LEVEL
 
