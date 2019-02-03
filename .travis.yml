@@ -59,7 +59,7 @@ matrix:
      before_install:
        - nvm install 10
        - android list targets
-       - echo no | android create avd --force -n $EMULATOR_NAME -t "android-"$ANDROID_API_LEVEL  --abi $ANDROID_ABI --tag $ANDROID_TAG
+       - echo no | android create avd --force -n $EMULATOR_NAME -t android-25  --abi $ANDROID_ABI --tag $ANDROID_TAG
        - QEMU_AUDIO_DRV=none emulator -avd $EMULATOR_NAME -no-window &
        - cd src && npm i && cd ..
        - cd publish && npm run setup-dev-env && cd ..
